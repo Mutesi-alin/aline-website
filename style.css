@@ -1,0 +1,55 @@
+#navbar ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    }
+
+    #navbar li {
+        display: inline-block;
+     margin-top: 20px;  
+              }
+header{
+    display: flex;
+
+
+}
+#navbar{
+    gap: 600px;
+}
+#nav-bar a{
+    text-decoration: none;
+    color:black}
+
+    .bag{
+        margin-left: 34%;
+        width: 250px;
+        background-color: skyblue;
+        color: white;
+        height: 40px;
+        border-radius: 15px;
+        gap: 30px;
+        margin-top:18px ;
+        margin-left: 120px;
+       
+        }
+    .log{
+        display: flex;
+       
+    }
+    .girl{
+        display: flex;
+    }
+   
+    .nana{
+        display: flex;
+        gap: 100px;
+    }
+    body{
+        background-color:skyblue ;
+        
+    }
+    .content{
+        background-color: aliceblue;
+        
+    }
+ 
