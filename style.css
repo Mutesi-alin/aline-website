@@ -46,10 +46,184 @@ header{
     }
     body{
         background-color:skyblue ;
+        padding: 60px;
         
     }
     .content{
         background-color: aliceblue;
+        padding: 40px;
         
     }
- 
+    .input{
+        display: flex;
+        gap: 200px;
+        border: 70px ;
+        width: 500px;
+        border-radius: 100px;
+        border: solid ;
+        padding: 10px;
+    }
+    .press2{
+        width: 140px;
+        height: 60px;
+        border-radius: 70px;
+        color:white;
+        background-color: rgb(114,183,177);
+    }
+    .all{
+        display: flex;}
+        .nano{
+            justify-content: space-between;
+        }
+
+@media screen and (min-width:280px) and (max-width:330px){
+    #navbar ul{
+        flex-wrap: wrap;
+        
+        justify-content: space-around;
+        gap: 50px;
+        }
+    
+        #navbar li {
+            display: inline-block;
+         margin-top: 20px;  
+                  }
+    header{
+        display: flex;
+    
+    
+    }
+    #navbar{
+        gap: 600px;
+    }
+    #nav-bar a{
+        text-decoration: none;
+        color:black}
+    
+        .bag{
+            margin-left: 34%;
+            width: 250px;
+            background-color: skyblue;
+            color: white;
+            height: 40px;
+            border-radius: 15px;
+            gap: 30px;
+            margin-top:18px ;
+            margin-left: 120px;
+           
+            }
+        .log{
+            flex-wrap: wrap;
+           
+        }
+        .girl{
+            flex-wrap: wrap;
+        }
+       
+        .nana{
+            display: flex;
+            gap: 10px;
+        }
+        body{
+            background-color:skyblue ;
+            padding: 60px;#navbar ul{
+                display: flex;
+                justify-content: space-around;
+                gap: 50px;
+                }
+            
+                #navbar li {
+                    display: inline-block;
+                 margin-top: 20px;  
+                          }
+            header{
+                display: flex;
+            
+            
+            }
+            #navbar{
+                gap: 600px;
+            }
+            #nav-bar a{
+                text-decoration: none;
+                color:black}
+            
+                .bag{
+                    margin-left: 34%;
+                    width: 250px;
+                    background-color: skyblue;
+                    color: white;
+                    height: 40px;
+                    border-radius: 15px;
+                    gap: 30px;
+                    margin-top:18px ;
+                    margin-left: 120px;
+                   
+                    }
+                .log{
+                    display: flex;
+                   
+                }
+                .girl{
+                    display: flex;
+                }
+               
+                .nana{
+                    display: flex;
+                    gap: 100px;
+                }
+                body{
+                    background-color:skyblue ;
+                    padding: 60px;
+                    
+                }
+                .content{
+                    background-color: aliceblue;
+                    padding: 40px;
+                    
+                }
+                .input{
+                    display: flex;
+                    gap: 200px;
+                    border: 70px ;
+                    width: 500px;
+                    border-radius: 100px;
+                    border: solid ;
+                    padding: 10px;
+                }
+                .press2{
+                    width: 140px;
+                    height: 60px;
+                    border-radius: 70px;
+                    color:white;
+                    background-color: rgb(114,183,177);
+                }
+                .all{
+                    flex-wrap: wrap;}
+            
+        }
+        .content{
+            background-color: aliceblue;
+            padding: 40px;
+            
+        }
+        .input{
+            flex-wrap: wrap;
+            gap: 100px;
+            border: 30px ;
+            width: 100px;
+            border-radius: 100px;
+            border: solid ;
+            padding: 10px;
+        }
+        .press2{
+            width: 50px;
+            height: 10px;
+            border-radius: 70px;
+            color:white;
+            background-color: rgb(114,183,177);
+        }
+        .all{
+            flex-wrap: wrap;}
+    
+}
