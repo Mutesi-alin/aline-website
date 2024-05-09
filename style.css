@@ -1,7 +1,7 @@
 #navbar ul{
     display: flex;
     justify-content: space-around;
-    gap: 50px;
+    gap: 150px;
     }
 
     #navbar li {
@@ -10,6 +10,7 @@
               }
 header{
     display: flex;
+    
 
 
 }
@@ -20,9 +21,9 @@ header{
     text-decoration: none;
     color:black}
 
-    .bag{
+    .loging{
         margin-left: 34%;
-        width: 250px;
+        width: 150px;
         background-color: skyblue;
         color: white;
         height: 40px;
@@ -39,19 +40,19 @@ header{
     .girl{
         display: flex;
     }
+    .word{
+        text-align: center;
+    }
+    .sizing{
+        font-size: 60px;
+    }
    
-    .nana{
-        display: flex;
-        gap: 100px;
-    }
-    body{
-        background-color:skyblue ;
-        padding: 60px;
-        
-    }
+
     .content{
         background-color: aliceblue;
-        padding: 40px;
+        padding:70px;
+        
+        
         
     }
     .input{
@@ -70,160 +71,124 @@ header{
         color:white;
         background-color: rgb(114,183,177);
     }
-    .all{
-        display: flex;}
-        .nano{
+    .landing{
+        display: flex;
+        padding: 90px;
+    }
+        .footer{
+            
+            
+            background-color: rgb(227,249,239 );
+            height: 250px;
+            padding: 20px;
+            font-size: larger;
+        }
+        .imageall{
+            display: flex;
             justify-content: space-between;
         }
-
-@media screen and (min-width:280px) and (max-width:330px){
-    #navbar ul{
-        flex-wrap: wrap;
+        .done{
+            width: 400px;
+            height: 500px;
+            border-radius: 50%;
+            margin-left: 250px;
         
-        justify-content: space-around;
-        gap: 50px;
         }
-    
-        #navbar li {
-            display: inline-block;
-         margin-top: 20px;  
-                  }
-    header{
-        display: flex;
-    
-    
-    }
-    #navbar{
-        gap: 600px;
-    }
-    #nav-bar a{
-        text-decoration: none;
-        color:black}
-    
-        .bag{
-            margin-left: 34%;
-            width: 250px;
-            background-color: skyblue;
-            color: white;
-            height: 40px;
-            border-radius: 15px;
-            gap: 30px;
-            margin-top:18px ;
-            margin-left: 120px;
-           
-            }
-        .log{
-            flex-wrap: wrap;
-           
-        }
-        .girl{
-            flex-wrap: wrap;
-        }
-       
-        .nana{
-            display: flex;
-            gap: 10px;
-        }
-        body{
-            background-color:skyblue ;
-            padding: 60px;#navbar ul{
-                display: flex;
+
+        @media screen and (min-width:280px) and (max-width:650px){
+
+            #navbar ul{
+                display: grid;
                 justify-content: space-around;
-                gap: 50px;
+                gap: 30px;
                 }
             
                 #navbar li {
                     display: inline-block;
-                 margin-top: 20px;  
+                 margin-top: 2px;  
                           }
             header{
-                display: flex;
+            display: grid;
+                
             
             
             }
             #navbar{
-                gap: 600px;
+                gap: 6px;
             }
             #nav-bar a{
                 text-decoration: none;
                 color:black}
             
-                .bag{
-                    margin-left: 34%;
-                    width: 250px;
+                .loging{
+                    margin-left: 34px;
+                    width: 59px;
                     background-color: skyblue;
                     color: white;
-                    height: 40px;
-                    border-radius: 15px;
+                    height: 50px;
+                    border-radius: 35px;
                     gap: 30px;
-                    margin-top:18px ;
-                    margin-left: 120px;
+                
+                    
                    
                     }
                 .log{
-                    display: flex;
+                    display: grid;
                    
                 }
                 .girl{
-                    display: flex;
+                    display: grid;
+                }
+                .word{
+                    text-align: center;
                 }
                
-                .nana{
-                    display: flex;
-                    gap: 100px;
-                }
-                body{
-                    background-color:skyblue ;
-                    padding: 60px;
-                    
-                }
+            
                 .content{
                     background-color: aliceblue;
-                    padding: 40px;
+                    padding:30px;
+                    margin-left: 30px;
+                    
                     
                 }
                 .input{
-                    display: flex;
-                    gap: 200px;
+                    display: grid;
+                    gap: 20px;
                     border: 70px ;
-                    width: 500px;
-                    border-radius: 100px;
+                    width: 50px;
+                    border-radius: 10px;
                     border: solid ;
                     padding: 10px;
                 }
                 .press2{
-                    width: 140px;
-                    height: 60px;
-                    border-radius: 70px;
+                    width: 70px;
+                    height: 30px;
+                    border-radius: 40px;
                     color:white;
                     background-color: rgb(114,183,177);
                 }
-                .all{
-                    flex-wrap: wrap;}
-            
+                .landing{
+                    display: grid;}
+                    .footer{
+                        
+                        
+                        background-color: rgb(227,249,239 );
+                        height: 250px;
+                        padding: 20px;
+                        font-size: smaller;
+                    }
+                    .imageall{
+                        display: grid;
+                        justify-content: space-between;
+                    }
+                    .done{
+                        width: 80px;
+                        height: 70px;
+                        border-radius: 50px;
+                        margin-left: 15px;
+                    
+                    }   
+                   
+
+
         }
-        .content{
-            background-color: aliceblue;
-            padding: 40px;
-            
-        }
-        .input{
-            flex-wrap: wrap;
-            gap: 100px;
-            border: 30px ;
-            width: 100px;
-            border-radius: 100px;
-            border: solid ;
-            padding: 10px;
-        }
-        .press2{
-            width: 50px;
-            height: 10px;
-            border-radius: 70px;
-            color:white;
-            background-color: rgb(114,183,177);
-        }
-        .all{
-            flex-wrap: wrap;}
-    
-}
